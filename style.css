@@ -1,0 +1,44 @@
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+header{
+  background-color:black;
+  padding: auto;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  width:100vw;
+  height:100px;
+}
+#name{
+  color:white;
+  padding:0px 34px;
+}
+#mune{
+  margin: 0px;
+  padding: 0px;
+}
+#mune ul{
+  display:inline-block;
+  width:50vw;
+} 
+#mune ul li{
+  float:left;
+  list-style:none;
+}
+#mune ul li a{
+  padding:4px 34px;
+  margin:10px;
+  background:black;
+  color: white;
+  text-decoration: none;
+  border:1px solid white;
+  border-radius: 4px;
+}
+#mune ul li a:hover{
+  background:white;
+  color:black;
+}
