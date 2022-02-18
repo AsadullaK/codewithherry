@@ -42,3 +42,35 @@ header{
   background:white;
   color:black;
 }
+#slider{
+  width:80%;
+  height:400px;
+  position: absolute;
+  left:50%;
+  top:100px;
+  background-size:100% 100%;
+  background-image:url(image2.jpg);
+  transform:translate(-50%,0%);
+  animation:slider 9s infinite linear;
+  margin-top:12px;
+}
+@keyframes slider{
+  0%{background-image:url(image2.jpg);
+}
+  
+  35%{background-image:url(image1.jpg);
+}
+  
+  70%{background-image:url(image.jpg);
+}
+}
+.h2{
+  color:black;
+  
+}
+.h2 h2{
+  position:absolute;
+  top:550px;
+  left:50%;
+  transform:translate(-50%,0px);
+}
